@@ -1,0 +1,6 @@
+tv2017Black <- subset(tv2017, grepl("WHITE", tv2017$Race, ignore.case = TRUE))
+tv2017White <- subset(tv2017, grepl("BLACK", tv2017$Race, ignore.case = TRUE))
+tv2017Hispanic <- subset(tv2017, grepl("HISPANIC", tv2017$Race, ignore.case = TRUE))
+tv2017Native <- subset(tv2017, grepl("NATIVE AMERICAN", tv2017$Race, ignore.case = TRUE))
+tv2017Asian <- subset(tv2017, grepl("ASIAN", tv2017$Race, ignore.case = TRUE))
+tv2017Other <- subset(tv2017, grepl("OTHER", tv2017$Race, ignore.case = TRUE))
